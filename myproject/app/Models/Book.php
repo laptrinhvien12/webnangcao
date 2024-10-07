@@ -14,3 +14,18 @@ class Book extends Model
         'published_year',
     ];
 }
+composer create-project laravel/laravel myproject
+cd myproject
+php artisan serve
+    php artisan make:model book
+    php artisan make:migration create_books_table
+    php artisan migrate
+    php artisan make:seeder BookSeeder
+    php artisan db:seed
+    php artisan make:controller BookController
+
+
+    php artisan make:model book -m
+    
+    
+    
