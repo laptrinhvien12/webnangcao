@@ -26,6 +26,7 @@ php artisan serve
 
 
     php artisan make:model book -m
+    php artisan migrate:fresh
     
     
     
