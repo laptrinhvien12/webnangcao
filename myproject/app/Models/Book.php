@@ -22,7 +22,7 @@ php artisan serve
     php artisan migrate
     php artisan make:seeder BookSeeder
     php artisan db:seed
-    php artisan make:controller BookController
+    php artisan make:controller BookController --resource
 
 
     php artisan make:model book -m
